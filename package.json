@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev --turbopack",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@tailwindcss/forms": "^0.5.10",
+    "autoprefixer": "10.4.20",
+    "bcrypt": "^5.1.1",
+    "clsx": "^2.1.1",
+    "next": "latest",
+    "next-auth": "5.0.0-beta.25",
+    "postcss": "8.5.1",
+    "postgres": "^3.4.5",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.7.3",
+    "use-debounce": "^10.0.4",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "22.10.7",
+    "@types/react": "19.0.7",
+    "@types/react-dom": "19.0.3"
+  },
+  "packageManager": "pnpm@8.15.8+sha512.d1a029e1a447ad90bc96cd58b0fad486d2993d531856396f7babf2d83eb1823bb83c5a3d0fc18f675b2d10321d49eb161fece36fe8134aa5823ecd215feed392"
+}
